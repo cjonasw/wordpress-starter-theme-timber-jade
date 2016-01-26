@@ -1,0 +1,27 @@
+/*
+  Theme Name: cjonasw-Timber-Jade-Example
+  Theme URI: https://github.com/cjonasw/
+  Description: cjonasw-Timber-Jade-Example
+  Version: 1
+  Author: Charlie Walter
+  Author URI: http://www.charliejwalter.net
+*/
+
+body{
+  background: cream;
+  color: grey;
+}
+
+body:after{
+  content: "Timber + Jade";
+  color: red;
+  font-size: 2em;
+}
+
+a{
+  color: grey;
+}
+
+.pagination{
+  margin-top: 1em;
+}

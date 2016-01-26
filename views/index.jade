@@ -1,0 +1,15 @@
+extends ./layout
+
+block content
+  
+  each item in posts
+    h1
+      a(href= item->permalink)!= item->title
+    !=item->get_preview
+
+  footer.pagination
+    if pagination.prev
+      a(href= pagination.prev.link) Newer
+
+    if pagination.next
+      a(href= pagination.next.link) Older
